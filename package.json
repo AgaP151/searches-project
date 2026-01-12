@@ -1,0 +1,38 @@
+{
+  "name": "searches-project",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://agap151.github.io/searches-project/",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /searches-project/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agap151/searches-project.git"
+  },
+  "keywords": [],
+  "author": "Agnieszka Piotrowska <piotrowska.agnieszka1987@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agap151/searches-project/issues"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "lodash": "^4.17.21",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6",
+    "simplelightbox": "^2.14.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
+    "gh-pages": "^6.0.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
